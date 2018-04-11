@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.shreyas.quizking.StudentActivity">
+
+    <TextView
+        android:id="@+id/ScoreTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="21dp"
+        android:layout_marginTop="16dp"
+        android:text="Score:"
+        app:layout_constraintBottom_toTopOf="@+id/QuestionTV"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/QuestionTV"
+        android:layout_width="270dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="34dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toTopOf="@+id/AnswerA"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ScoreTV" />
+
+    <Button
+        android:id="@+id/AnswerA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="18dp"
+        android:text="Answer A"
+        app:layout_constraintBottom_toTopOf="@+id/AnswerB"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/QuestionTV" />
+
+    <Button
+        android:id="@+id/AnswerB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="26dp"
+        android:text="Answer B"
+        app:layout_constraintBottom_toTopOf="@+id/AnswerC"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/AnswerA" />
+
+    <Button
+        android:id="@+id/AnswerC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="22dp"
+        android:text="Answer C"
+        app:layout_constraintBottom_toTopOf="@+id/AnswerD"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/AnswerB" />
+
+    <Button
+        android:id="@+id/AnswerD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="49dp"
+        android:text="Answer D"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/AnswerC" />
+</android.support.constraint.ConstraintLayout>

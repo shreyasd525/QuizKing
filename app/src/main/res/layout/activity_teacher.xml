@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.shreyas.quizking.TeacherActivity"
+    tools:layout_editor_absoluteY="81dp">
+
+    <EditText
+        android:id="@+id/QuestionET"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="34dp"
+        android:ems="10"
+        android:hint="question"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/AnswerBET"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:ems="10"
+        android:hint="Answer B"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="@+id/AnswerAET"
+        app:layout_constraintTop_toBottomOf="@+id/AnswerAET" />
+
+    <EditText
+        android:id="@+id/AnswerCET"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="17dp"
+        android:ems="10"
+        android:hint="Answer C"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="@+id/AnswerBET"
+        app:layout_constraintTop_toBottomOf="@+id/AnswerBET" />
+
+    <EditText
+        android:id="@+id/AnswerDET"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:ems="10"
+        android:hint="Answer D"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/CorrectET"
+        app:layout_constraintStart_toStartOf="@+id/CorrectET" />
+
+    <Button
+        android:id="@+id/AddET"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="58dp"
+        android:text="Add"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <EditText
+        android:id="@+id/AnswerAET"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:ems="10"
+        android:hint="Answer A"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="@+id/QuestionET"
+        app:layout_constraintTop_toBottomOf="@+id/QuestionET" />
+
+    <EditText
+        android:id="@+id/CorrectET"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:ems="10"
+        android:hint="Correct Answer"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/AddET"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+</android.support.constraint.ConstraintLayout>

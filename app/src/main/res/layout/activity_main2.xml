@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.shreyas.quizking.Main2Activity">
+
+    <EditText
+        android:id="@+id/EmailET3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/PasswordET3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        app:layout_constraintStart_toStartOf="@+id/EmailET3"
+        app:layout_constraintTop_toBottomOf="@+id/EmailET3" />
+
+    <Button
+        android:id="@+id/LoginET2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:text="login"
+        app:layout_constraintStart_toStartOf="@+id/PasswordET3"
+        app:layout_constraintTop_toBottomOf="@+id/PasswordET3" />
+
+    <Button
+        android:id="@+id/RegisterET3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="1dp"
+        android:text="register"
+        app:layout_constraintBaseline_toBaselineOf="@+id/LoginET2"
+        app:layout_constraintEnd_toEndOf="@+id/PasswordET3" />
+</android.support.constraint.ConstraintLayout>

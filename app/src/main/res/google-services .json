@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "70190258557",
+    "firebase_url": "https://quiz-king-6f6b2.firebaseio.com",
+    "project_id": "quiz-king-6f6b2",
+    "storage_bucket": "quiz-king-6f6b2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:70190258557:android:0f6e12b7b9aaaef6",
+        "android_client_info": {
+          "package_name": "com.example.shreyas.quizking"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "70190258557-8b6qi6puo8o4jsltk1i700aa0ceb2h0l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3qngQuKEY3CanDVC-H4zq7IcWlsa3Rk4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
